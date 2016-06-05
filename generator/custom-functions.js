@@ -97,6 +97,12 @@ module.exports = [
     returns: BOOLEAN_RESPONSE
   },
   {
+    name: 'personal_listAccounts',
+    desc: 'Returns a list of addresses owned by client.',
+    params: [],
+    returns: '`Array of DATA`, 20 Bytes - addresses owned by the client.'
+  },
+  {
     name: 'personal_newAccount',
     desc: 'Creates new account',
     params: ['`DATA` - Password'],
