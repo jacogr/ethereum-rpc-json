@@ -189,13 +189,13 @@ module.exports = [
     name: 'ethcore_devLogs',
     desc: '?',
     params: [],
-    returns '`ARRAY` - Dev logs'
+    returns: '`ARRAY` - Dev logs'
   },
   {
     name: 'ethcore_devLogsLevels',
     desc: '?',
     params: [],
-    returns '?'
+    returns: '?'
   },
   {
     name: 'trace_filter',
