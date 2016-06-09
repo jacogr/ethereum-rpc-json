@@ -109,6 +109,12 @@ module.exports = [
     returns: BOOLEAN_RESPONSE
   },
   {
+    name: 'personal_signerEnabled',
+    desc: 'Returns true/false if signer is enabled/disabled.',
+    params: [],
+    returns: BOOLEAN_RESPONSE
+  },
+  {
     name: 'personal_unlockAccount',
     desc: '?',
     params: ['?', '?', '?'],
